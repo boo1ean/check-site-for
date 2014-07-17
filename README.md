@@ -2,7 +2,15 @@
 
 Promise-based site content predicate applicator
 
+## Installation
+
+```
+npm install check-site-for
+```
+
 ```javascript
+var csf = require('check-site-for');
+
 var urls = [
 	'https://github.com/petkaantonov/bluebird',
 	'https://github.com/boo1ean/shitty-qs',
